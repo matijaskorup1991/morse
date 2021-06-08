@@ -1,0 +1,36 @@
+div {
+  text-align: center;
+  margin: 5vh;
+}
+
+body {
+  position: relative;
+}
+
+aside {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 10%;
+  border: 2px solid black;
+  display: none;
+}
+
+.result {
+  font-size: 3rem;
+}
+
+.morse {
+  margin: 5px 0 5px 10px;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 780px) {
+  .result {
+    font-size: 2rem;
+  }
+  div {
+    text-align: left;
+  }
+}
