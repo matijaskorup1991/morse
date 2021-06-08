@@ -62,7 +62,6 @@ function createWord() {
   for (let i = 0; i < data.length; i++) {
     res.push(morseCode(data[i]));
   }
-  console.log(res.join(''));
   return res.join('');
 }
 
